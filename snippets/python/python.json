@@ -1,4 +1,22 @@
 {
+    	"Comment header Py": {
+		"scope": "python",
+		"prefix": "ch",
+		"body": [
+			"#------------------------------------------------------",
+			"# $1",
+			"#------------------------------------------------------$0",
+		],
+		"description": "comment header"
+	}
+          "Print Debug": {
+    "scope": "python",
+    "prefix": "pd",
+    "body": [
+      "print(f\"DEBUG: {${1:var}=}\")"
+    ],
+    "description": "Debug print variable"
+  },
     "#!/usr/bin/env pythonX": {
         "prefix": "#env",
         "body": "#!/usr/bin/env python$0",
