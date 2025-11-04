@@ -9,12 +9,10 @@
         "description": "comment header"
     },
     "Print Debug": {
-    "prefix": "pd",
-    "body": [
-      "print(f\"DEBUG: {${1:var}=}\")"
-    ],
-    "description": "Debug print variable"
-  },
+        "prefix": "pd",
+        "body": ["print(f\"DEBUG: {${1:var}=}\")"],
+        "description": "Debug print variable"
+    },
     "#!/usr/bin/env pythonX": {
         "prefix": "#env",
         "body": "#!/usr/bin/env python$0",
