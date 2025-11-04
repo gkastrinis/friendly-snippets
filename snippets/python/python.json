@@ -9,6 +9,15 @@
         "body": "# pyright: ignore[$0]",
         "description": "Ignore specific line diagnostic in pyright (ignore all is unsafe)"
     },
+    "Comment header Py": {
+        "prefix": "ch",
+        "body": [
+            "#------------------------------------------------------",
+            "# $1",
+            "#------------------------------------------------------$0"
+        ],
+        "description": "comment header"
+    },
     "foooooo": {
         "prefix": "foo",
         "body": ["-----------------------------------------------------","s lll$0", "------------------------------------------------------"],
