@@ -1,18 +1,4 @@
 {
-    "Comment header Py": {
-        "prefix": "ch",
-        "body": [
-            "#------------------------------------------------------",
-            "# $1",
-            "#------------------------------------------------------$0",
-        ],
-        "description": "comment header"
-    },
-    "Print Debug": {
-        "prefix": "pd",
-        "body": ["print(f\"DEBUG: {${1:var}=}\")"],
-        "description": "Debug print variable"
-    },
     "#!/usr/bin/env pythonX": {
         "prefix": "#env",
         "body": "#!/usr/bin/env python$0",
@@ -24,7 +10,7 @@
         "description": "Ignore specific line diagnostic in pyright (ignore all is unsafe)"
     },
     "Multiline string": {
-        "prefix": "#",
+        "prefix": "#1",
         "body": ["\"\"\"$0", "\"\"\""],
         "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
     },
