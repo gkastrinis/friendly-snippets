@@ -1,6 +1,5 @@
 {
     	"Comment header Py": {
-		"scope": "python",
 		"prefix": "ch",
 		"body": [
 			"#------------------------------------------------------",
@@ -10,7 +9,6 @@
 		"description": "comment header"
 	}
           "Print Debug": {
-    "scope": "python",
     "prefix": "pd",
     "body": [
       "print(f\"DEBUG: {${1:var}=}\")"
